@@ -27,7 +27,18 @@ The following tools and frameworks were used in the construction of the project:
 1. Clone this repository
 2. Clone the front-end repository at https://github.com/gabriel-lutz/my-wallet
 3. Follow instructions to run front-end at https://github.com/gabriel-lutz/my-wallet
-4. Run the database file located at **./database**
+4. <p>
+    <details>
+      <summary>Run the database file located at **./database**</summary>
+
+      1. Create a postgres database called "mywallet"
+      
+      2. In your /database folder, run the sql script file with
+      
+        psql -d mywallet -f database.sql
+    </details>
+  </p>
+
 5. Install dependencies
 ```bash
 npm i
